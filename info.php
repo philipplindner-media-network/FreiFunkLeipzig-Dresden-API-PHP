@@ -1,8 +1,5 @@
-//Ofline Online
-
-
-
-$apiURL="http://".$_REQUEST["kid"].".freifunk-dresden.de";
+<?php
+apiURL="http://".$_REQUEST["kid"].".freifunk-dresden.de";
 $apiURL2=$apiURL."/sysinfo-json.cgi";
 $json_url=file_get_contents($apiURL2);
 $jsonR=json_decode($json_url);
