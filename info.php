@@ -30,7 +30,7 @@ $FFClientAll_2    =$FFclient2G1d+$FFclient5G1d;
 echo"Freifunk Vesion ".$FFVesion." auf einer ".$DestName." (ver.: ".$DestVerson.")<br>";
 echo"auf Ruter: ".$FFModell."<br>";
 echo"Community: ".$FFCommunity ."<br>";
-echo $FFRuterName." Node: ".$FFNode." <br>";
+echo rawurldecode($FFRuterName)." Node: ".$FFNode." <br>";
 echo"Ort: ".rawurldecode($FFRuterOrt)." Kontakt: ". rawurldecode($FFRuterEMail)."<br>";
 echo"Client:  aktuell:".$FFClientAll_1." Heute: ".$FFClientAll_2."<br>";
 echo"Status: ";
